@@ -40,11 +40,14 @@ class EquationViewController: UIViewController {
         DrawWindow.layer.borderColor=UIColor.black.cgColor
         DrawWindow.layer.borderWidth=1
         
-        glkView(DrawWindow, drawIn: DrawWindow.bounds)
+        EAGLContext.setCurrent(DrawWindow.context)
+        
+        
+        //glkView(DrawWindow, drawIn: DrawWindow.frame)
     }
     
     func DrawFunc(){
-        glLoadIdentity()
+        //glLoadIdentity()
         glClear(GLbitfield(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT))
         glClearColor(0.0, 1.0, 1.0, 1.0)
         
