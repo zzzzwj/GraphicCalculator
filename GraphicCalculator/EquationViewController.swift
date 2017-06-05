@@ -9,9 +9,32 @@
 import UIKit
 import GLKit
 
+class openglView:GLKView, GLKViewDelegate{
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        self.context=EAGLContext.init(api: EAGLRenderingAPI.openGLES2)
+        glClearColor(0.0, 1.0, 0.0, 1.0)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        //fatalError("init(coder:) has not been implemented")
+    }
+    
+    func glkView(_ view: GLKView, drawIn rect: CGRect) {
+        glClear(GLbitfield(GL_COLOR_BUFFER_BIT))
+    }
+    
+    override func draw(_ rect: CGRect) {
+        glClear(GLbitfield(GL_COLOR_BUFFER_BIT))
+    }
+    
+}
+
 class EquationViewController: UIViewController {
 
-    @IBOutlet weak var DrawWindow: GLKView!
+    @IBOutlet weak var DrawWindow: openglView!
     @IBOutlet weak var InputEquation: UITextView!
     @IBOutlet weak var OutputRes: UITextView!
     @IBOutlet weak var Complete: UIButton!
@@ -41,12 +64,13 @@ class EquationViewController: UIViewController {
         DrawWindow.layer.borderWidth=1
         
         EAGLContext.setCurrent(DrawWindow.context)
-        
+        glClearColor(1.0, 0.0, 0.0, 1.0)
         
         //glkView(DrawWindow, drawIn: DrawWindow.frame)
     }
     
     func DrawFunc(){
+        //DrawWindow.draw(<#T##rect: CGRect##CGRect#>)
         //glLoadIdentity()
         glClear(GLbitfield(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT))
         glClearColor(0.0, 1.0, 1.0, 1.0)
@@ -102,10 +126,4 @@ class EquationViewController: UIViewController {
         NotificationCenter.default.removeObserver(self)
     }
 
-}
-
-extension EquationViewController:GLKViewDelegate {
-    func glkView(_ view: GLKView, drawIn rect: CGRect) {
-        DrawFunc()
-    }
 }

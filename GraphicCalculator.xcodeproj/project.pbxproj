@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181D981C1EE4F58F00E1E6D1 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D981B1EE4F58F00E1E6D1 /* Tools.swift */; };
 		18BF5A5C1ED108E50003FE8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF5A5B1ED108E50003FE8D /* AppDelegate.swift */; };
 		18BF5A5E1ED108E50003FE8D /* CommonCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF5A5D1ED108E50003FE8D /* CommonCalculator.swift */; };
 		18BF5A601ED108E50003FE8D /* ScientificCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF5A5F1ED108E50003FE8D /* ScientificCalculator.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181D981B1EE4F58F00E1E6D1 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		18BF5A581ED108E50003FE8D /* GraphicCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphicCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BF5A5B1ED108E50003FE8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18BF5A5D1ED108E50003FE8D /* CommonCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCalculator.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				18BF5A661ED108E60003FE8D /* LaunchScreen.storyboard */,
 				18BF5A691ED108E60003FE8D /* Info.plist */,
 				18D19FD11ED2540400FDE9F0 /* GraphicCalculator-Bridging-Header.h */,
+				181D981B1EE4F58F00E1E6D1 /* Tools.swift */,
 			);
 			path = GraphicCalculator;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			files = (
 				18D19FD31ED259FE00FDE9F0 /* EquationViewController.swift in Sources */,
 				18BF5A601ED108E50003FE8D /* ScientificCalculator.swift in Sources */,
+				181D981C1EE4F58F00E1E6D1 /* Tools.swift in Sources */,
 				18BF5A701ED109960003FE8D /* RootTabBarController.swift in Sources */,
 				18BF5A761ED141880003FE8D /* Statistics.swift in Sources */,
 				18BF5A5C1ED108E50003FE8D /* AppDelegate.swift in Sources */,

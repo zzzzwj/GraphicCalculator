@@ -30,7 +30,7 @@ class StatisticsViewController: UIViewController,UICollectionViewDelegate,UIColl
         InputWindow.register(TextCell.self, forCellWithReuseIdentifier: "cell")
         
         InputWindow.backgroundColor=UIColor.white
-        InputWindow.setCollectionViewLayout(<#T##layout: UICollectionViewLayout##UICollectionViewLayout#>, animated: <#T##Bool#>)
+        //InputWindow.setCollectionViewLayout(<#T##layout: UICollectionViewLayout##UICollectionViewLayout#>, animated: <#T##Bool#>)
     }
 
     override func didReceiveMemoryWarning() {

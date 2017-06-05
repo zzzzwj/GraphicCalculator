@@ -48,6 +48,9 @@
                                                 <state key="normal" title="AC">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="TouchAC:" destination="9pv-A4-QxB" eventType="touchUpInside" id="3b4-Cg-I0M"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25w-QG-oae">
                                                 <rect key="frame" x="94" y="0.0" width="93.5" height="85.5"/>
@@ -57,7 +60,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Fg5-Sx-ZnD"/>
+                                                    <action selector="AddDigit:" destination="9pv-A4-QxB" eventType="touchUpInside" id="wYe-dh-hBk"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8Y-ag-SOe">
@@ -68,7 +71,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="m9A-Pg-UbB"/>
+                                                    <action selector="AddDigit:" destination="9pv-A4-QxB" eventType="touchUpInside" id="rd4-eZ-KDH"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWV-wo-A7l">
@@ -95,7 +98,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="FCT-sp-yZf"/>
+                                                    <action selector="AddDigit:" destination="9pv-A4-QxB" eventType="touchUpInside" id="SS2-pX-aes"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vv1-QA-RsV">
@@ -106,7 +109,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="vdD-0L-HoP"/>
+                                                    <action selector="AddDigit:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Z9i-WK-Pfr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEf-os-dg3">
@@ -117,7 +120,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="OeS-1q-qHI"/>
+                                                    <action selector="AddDigit:" destination="9pv-A4-QxB" eventType="touchUpInside" id="NkL-dx-2gt"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXV-Pg-1sG">
@@ -144,7 +147,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="UhY-NY-bpl"/>
+                                                    <action selector="AddDigit:" destination="9pv-A4-QxB" eventType="touchUpInside" id="OsJ-ei-Z26"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnp-de-Rqd">
@@ -155,7 +158,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="fSO-dc-fPq"/>
+                                                    <action selector="AddDigit:" destination="9pv-A4-QxB" eventType="touchUpInside" id="xC0-He-xST"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ugl-Px-TyV">
@@ -166,7 +169,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="oLp-s6-nd5"/>
+                                                    <action selector="AddDigit:" destination="9pv-A4-QxB" eventType="touchUpInside" id="cKW-R5-PFQ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJG-5S-PNk">
@@ -193,7 +196,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="JPQ-wJ-8dT"/>
+                                                    <action selector="AddDigit:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Gct-eF-ppf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kn-Qz-vNN">
@@ -204,7 +207,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="1pt-YR-M4a"/>
+                                                    <action selector="AddDigit:" destination="9pv-A4-QxB" eventType="touchUpInside" id="ivI-ah-SsN"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuM-qf-IQ7">
@@ -215,7 +218,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="hFQ-L3-fg4"/>
+                                                    <action selector="AddDigit:" destination="9pv-A4-QxB" eventType="touchUpInside" id="vMS-i9-bAf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNc-H1-kKc">
@@ -242,7 +245,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="f5U-ZU-2m1"/>
+                                                    <action selector="AddDigit:" destination="9pv-A4-QxB" eventType="touchUpInside" id="A9f-fv-642"/>
                                                 </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Dov-4a-Ej5">
@@ -256,7 +259,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="fqv-cj-bqL"/>
+                                                            <action selector="AddDigit:" destination="9pv-A4-QxB" eventType="touchUpInside" id="PKq-9F-gIW"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGb-O2-P6b">
@@ -267,7 +270,7 @@
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="PerformAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="uL5-Pl-jPc"/>
+                                                            <action selector="GetAnswer:" destination="9pv-A4-QxB" eventType="touchUpInside" id="I5M-ce-jyD"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -958,7 +961,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="RbR-H3-M93">
                                 <rect key="frame" x="0.0" y="20" width="375" height="558"/>
                                 <subviews>
-                                    <glkView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" drawableDepthFormat="24" enableSetNeedsDisplay="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCk-q9-n1K">
+                                    <glkView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" drawableDepthFormat="24" enableSetNeedsDisplay="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCk-q9-n1K" customClass="openglView" customModule="GraphicCalculator" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="278.5"/>
                                     </glkView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="ISI-oI-Cxe">
@@ -1007,7 +1010,7 @@
                     <tabBarItem key="tabBarItem" title="SolveEquation" id="MVq-6m-KaW"/>
                     <connections>
                         <outlet property="Complete" destination="Q5F-Fa-gKY" id="YgX-3u-l57"/>
-                        <outlet property="DrawWindow" destination="nCk-q9-n1K" id="6Vm-kX-1o0"/>
+                        <outlet property="DrawWindow" destination="nCk-q9-n1K" id="xQw-VL-KPw"/>
                         <outlet property="InputEquation" destination="AuY-ib-iaI" id="fkj-MF-ouo"/>
                         <outlet property="OutputRes" destination="lca-3K-CLn" id="PqA-Jd-LYl"/>
                     </connections>
